@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Badge from '../../pages/Badge';
 import Home from '../../pages/Home';
+import DynamicDate from '../../pages/DynamicDate';
 
 const router = createBrowserRouter([
   {
@@ -10,6 +11,10 @@ const router = createBrowserRouter([
   {
     path: '/badge',
     element: <Badge />,
+  },
+  {
+    path: '/date',
+    element: <DynamicDate />,
   },
 ]);
 
